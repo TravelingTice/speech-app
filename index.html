@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech app</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Song maker</h1>
+
+  <div id="sentence-inputs-container">
+    <div class="input-container">
+      <input type="text" class="sentence-input" placeholder="Add sentence...">
+      <label for="rate-1">Rate</label>
+      <input type="number" class="rate-input" value="1" id="rate-1">
+      <label for="pitch-1">Pitch</label>
+      <input type="number" class="pitch-input" value="1" id="pitch-1">
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <button id="add-sentence-btn">Add sentence input</button>
+  </div>
+
+  <div class="mt-4">
+    <button id="play-btn">Click to play the song!</button>
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>

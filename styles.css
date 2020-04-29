@@ -1,0 +1,18 @@
+body {
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 300px;
+}
+
+.wait-input {
+  width: 200px;
+  margin: 0 30px;
+}
+
+.rate-input, .pitch-input {
+  width: 60px;
+}
